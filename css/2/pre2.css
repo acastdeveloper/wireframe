@@ -1,4 +1,5 @@
 @import url("./estructura2.css");
+@import url("./media2.css");
 
 :root {
     --sans1: 'Oswald', sans-serif;
@@ -44,16 +45,24 @@ header a:hover {
 
 /* **** logo **** */
 header #logo {
-    background: red;
+    /* background: red; */
     /*provisional, amb line-height no es veurà de tota manera */
 
     font-family: var(--sans1);
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     font-weight: 100;
 
     line-height: 0;
     /*posem lineheight perquè no alteri alçada ni paddings */
 }
+
+
+
+header #logo .tag {
+font-size: .85em;
+font-weight: 200;
+}
+
 
 
 /* **** social **** */

@@ -54,6 +54,13 @@ header>h1 {
 
 header #logo {
     align-self: center;
+    line-height: 0;
+}
+
+header #logo img {
+    height: 1rem;
+    margin-right: .2rem;
+    vertical-align: middle;
 }
 
 
