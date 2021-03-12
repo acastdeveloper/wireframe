@@ -1,10 +1,10 @@
 @import url("./estructura2.css");
 
 :root {
---sans1:'Oswald', sans-serif;
---sans2:'Bebas Neue', cursive;
---sans3:'Noto Sans JP', sans-serif;
---serif1:'Times New Roman', serif;
+    --sans1: 'Oswald', sans-serif;
+    --sans2: 'Bebas Neue', cursive;
+    --sans3: 'Noto Sans JP', sans-serif;
+    --serif1: 'Times New Roman', serif;
 }
 
 
@@ -15,11 +15,10 @@
 /* **** GLOBALS **** */
 body {
     font-family: var(--sans1);
-    font-size: 16px;
+    font-size: 15px;
 }
 
 a {
-    color:#ccc;
     text-decoration: none;
 }
 
@@ -30,21 +29,40 @@ a {
 
 /* **** HEADER **** */
 header {
-    background: #333; /*provisional*/
+    background: #000; /*provisional*/
+    color:#999;
 }
 
-header>#logo {
-    background-color: rgb(150, 86, 90);  /*provisional*/
+header a {
+    color:#ccc;
+}
+
+header a:hover {
+    color:#fff;
+}
+
+
+/* **** logo **** */
+header #logo {
+    background: red;
+    /*provisional, amb line-height no es veurà de tota manera */
+
+    font-family: var(--sans1);
+    font-size: 1.5rem;
+    font-weight: 100;
+
     line-height: 0;
+    /*posem lineheight perquè no alteri alçada ni paddings */
 }
 
+
+/* **** social **** */
 #social {
- /* - */
+    /* - */
+    font-size: .9rem;
 }
 
 #social a {
-    background: #eee;
-    border-radius: 50%;
     text-align: center;
 }
 
@@ -59,9 +77,24 @@ nav ul {
 }
 
 nav ul li {
-    background: #999; /*provisional*/
+    background: #999;
+    /*provisional*/
 
     text-align: center;
+}
+
+nav ul li a {
+    background-color: #666;
+    color:#ccc;
+
+    font-family: var(--sans3);
+    font-size: .7rem;
+    letter-spacing: .05rem;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    background-color: #333;
 }
 
 
@@ -77,8 +110,10 @@ nav ul li {
 }
 
 #beltnav article {
-    background: #666; /*provisional*/
-    color: #eee;/*provisional*/
+    background: #666;
+    /*provisional*/
+    color: #eee;
+    /*provisional*/
 }
 
 
@@ -88,11 +123,13 @@ nav ul li {
 
 /* **** MAIN **** */
 main>section {
-    background: #999; /*provisional*/
+    background: #999;
+    /*provisional*/
 }
 
 main>section>article {
-    background: #333; /*provisional*/
+    background: #333;
+    /*provisional*/
 }
 
 section {
@@ -105,5 +142,6 @@ section {
 
 /* **** FOOTER **** */
 footer {
-    background: #333; /*provisional*/
+    background: #333;
+    /*provisional*/
 }

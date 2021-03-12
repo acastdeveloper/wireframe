@@ -45,29 +45,31 @@ header {
     justify-content: space-between;
 }
 
-header>figure {
-    width: 190px;
-    height: 35px;
 
-    margin: 0;
+/* **** logo **** */
+header>h1 {
     padding: 0;
+    margin: 0;
+}
 
+header #logo {
     align-self: center;
 }
 
+
+/* **** social **** */
 #social {
     align-self: center;
 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: .5rem;
+    grid-gap: .1rem;
     justify-items: center;
     align-items: center;
 }
 
 #social a {
-    width: 1rem;
-    height: 1rem;
+    padding: .5rem;
 
     align-self: center;
 }
@@ -88,8 +90,16 @@ nav ul {
 }
 
 nav ul li {
-    padding: .5rem;
+    height: auto;
 }
+
+nav ul li a {
+    width: 100%;
+    padding: .5rem;
+    display: block;
+}
+
+
 
 
 
