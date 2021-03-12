@@ -1,0 +1,109 @@
+@import url("./estructura2.css");
+
+:root {
+--sans1:'Oswald', sans-serif;
+--sans2:'Bebas Neue', cursive;
+--sans3:'Noto Sans JP', sans-serif;
+--serif1:'Times New Roman', serif;
+}
+
+
+
+
+
+
+/* **** GLOBALS **** */
+body {
+    font-family: var(--sans1);
+    font-size: 16px;
+}
+
+a {
+    color:#ccc;
+    text-decoration: none;
+}
+
+
+
+
+
+
+/* **** HEADER **** */
+header {
+    background: #333; /*provisional*/
+}
+
+header>#logo {
+    background-color: rgb(150, 86, 90);  /*provisional*/
+    line-height: 0;
+}
+
+#social {
+ /* - */
+}
+
+#social a {
+    background: #eee;
+    border-radius: 50%;
+    text-align: center;
+}
+
+
+
+
+
+
+/* **** NAV **** */
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    background: #999; /*provisional*/
+
+    text-align: center;
+}
+
+
+
+
+
+
+/* **** BELTNAV **** */
+#beltnav {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: .5rem;
+}
+
+#beltnav article {
+    background: #666; /*provisional*/
+    color: #eee;/*provisional*/
+}
+
+
+
+
+
+
+/* **** MAIN **** */
+main>section {
+    background: #999; /*provisional*/
+}
+
+main>section>article {
+    background: #333; /*provisional*/
+}
+
+section {
+    /* - */
+}
+
+
+
+
+
+/* **** FOOTER **** */
+footer {
+    background: #333; /*provisional*/
+}
