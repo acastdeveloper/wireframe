@@ -56,11 +56,9 @@ header #logo {
     /*posem lineheight perquè no alteri alçada ni paddings */
 }
 
-
-
 header #logo .tag {
-font-size: .85em;
-font-weight: 200;
+font-size: .7em;
+font-weight: 300;
 }
 
 
@@ -86,24 +84,28 @@ nav ul {
 }
 
 nav ul li {
-    background: #999;
+    background: #222;
     /*provisional*/
 
     text-align: center;
 }
 
 nav ul li a {
-    background-color: #666;
-    color:#ccc;
+    background: #ccc;
+    color:#666;
 
-    font-family: var(--sans3);
-    font-size: .7rem;
-    letter-spacing: .05rem;
+    font-family: var(--sans1);
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: .1rem;
     text-transform: uppercase;
+
+    transition: background .25s ease-in-out;
 }
 
 nav ul li a:hover {
-    background-color: #333;
+    background: #666;
+    color:#ccc;
 }
 
 
