@@ -24,12 +24,13 @@ body {
 #wrap {
     max-width: 1000px;
     min-height: 100vh;
-
-    margin:var(--medianil1) auto;
+    margin: 0 auto;
+    /* margin: var(--medianil1) auto; */
+    padding: var(--medianil1) calc(2*var(--medianil1));
 
     display: grid;
     grid-template-rows: auto auto auto 1fr auto;
-    grid-row-gap:var(--medianil1);
+    grid-row-gap: var(--medianil1);
 }
 
 
@@ -38,7 +39,7 @@ body {
 
 
 /* **** HEADER **** */
-header {
+#wrap>header {
     padding: var(--medianil1);
 
     display: flex;
@@ -47,17 +48,17 @@ header {
 
 
 /* **** logo **** */
-header>h1 {
+#wrap>header>h1 {
     padding: 0;
     margin: 0;
 }
 
-header #logo {
+#wrap>header #logo {
     align-self: center;
     line-height: 0;
 }
 
-header #logo img {
+#wrap>header #logo img {
     height: 1rem;
     margin-right: .2rem;
     vertical-align: middle;
