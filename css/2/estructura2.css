@@ -124,9 +124,24 @@ nav ul li a {
 
 #beltnav article {
     height: 180px;
+    padding: 1.2rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: right;
 }
 
+#beltnav article>section {
+    height: fit-content !important;
+    /* max-width:50%; */
+}
 
+#beltnav article:nth-child(1)>section {
+    align-self: flex-start;
+    text-align: left;
+}
 
 
 
@@ -142,9 +157,29 @@ main>section>article {
     grid-column: 2 / 5;
 }
 
-section {
-    min-height: 100%;
+main>section {}
+
+
+main>section>article {
+    margin: 1.8rem 0;
+
+    display: grid;
+    grid-template-columns: 120px auto;
+    grid-column-gap: 1.5rem;
 }
+
+main>section>article>figure {
+    padding: 0;
+    margin: 0;
+    max-height: 120px;
+}
+
+
+
+
+
+
+
 
 
 
@@ -153,5 +188,5 @@ section {
 
 /* **** FOOTER **** */
 footer {
-    height: 48px;
+    height: auto;
 }
