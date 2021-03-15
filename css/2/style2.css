@@ -276,6 +276,13 @@ main>section>article#art-decissions>figure {
     border-radius: 50%;
 }
 
+main>section>article#art-types>figure {
+    background: url("../../imgs/articles/typeface.jpg");
+    background-size: cover;
+    background-position: top center;
+    border-radius: 50%;
+}
+
 main>section>article#art-almaguer>figure {
     background: url("../../imgs/articles/layout.png");
     background-size: cover;
@@ -290,8 +297,15 @@ main>section>article#art-arrow>figure {
     border-radius: 50%;
 }
 
+main>section>article#art-debug>figure {
+    background: url("../../imgs/articles/prepared-stop.svg");
+    background-size: cover;
+    background-position: top center;
+    border-radius: 50%;
+}
+
 main>section>article#art-poo>figure {
-    background: url("../../imgs/articles/poo2.jpg");
+    background: url("../../imgs/articles/object.jpg");
     background-size: cover;
     background-position: top center;
     border-radius: 50%;
