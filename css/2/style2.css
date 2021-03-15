@@ -321,6 +321,7 @@ footer {
 
     color: #999;
 
+    max-height: fit-content;
     padding: 2rem;
 
     font-family: var(--sans1);
