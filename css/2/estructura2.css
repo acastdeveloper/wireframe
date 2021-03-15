@@ -49,13 +49,13 @@ body {
 
 /* **** logo **** */
 #wrap>header>h1 {
-    padding: 0;
+    padding: 1.1rem;
     margin: 0;
 }
 
 #wrap>header #logo {
     align-self: center;
-    line-height: 0;
+    /* line-height: 0; */
 }
 
 #wrap>header #logo img {
@@ -157,9 +157,6 @@ main>section>article {
     grid-column: 2 / 5;
 }
 
-main>section {}
-
-
 main>section>article {
     margin: 1.8rem 0;
 
@@ -173,13 +170,6 @@ main>section>article>figure {
     margin: 0;
     max-height: 120px;
 }
-
-
-
-
-
-
-
 
 
 

@@ -114,23 +114,28 @@ nav ul li a {
 }
 
 nav ul li:nth-child(1) a {
-    background: #5297ac;
+    /* background: #5297ac; */
+    background: hsl(194, 0%, 50%);
 }
 
 nav ul li:nth-child(2) a {
-    background: #a6c6c1;
+    /* background: #a6c6c1; */
+    background: hsl(171, 0%, 71%);
 }
 
 nav ul li:nth-child(3) a {
-    background: #e6e0cf;
+    /* background: #e6e0cf; */
+    background: hsl(44, 0, 86%);
 }
 
 nav ul li:nth-child(4) a {
-    background: #debfb5;
+    /* background: #debfb5; */
+    background: hsl(15, 0, 79%);
 }
 
 nav ul li:nth-child(5) a {
-    background: #baa6a5;
+    /* background: #baa6a5; */
+    background: hsl(3, 0, 69%);
 }
 
 nav ul li:hover a,
@@ -168,11 +173,11 @@ nav ul li a.selected {
     letter-spacing: .05em;
 
     filter: saturate(0%);
-    transition: all .75s ease-in-out;
+    transition: all .25s ease-in-out;
 }
 
 #beltnav article>section {
-    /* background: #101c2799; */
+    background: #101c2799;
     /* padding: .5rem; */
 }
 
@@ -209,12 +214,14 @@ nav ul li a.selected {
 
 #beltnav article:nth-child(2) {
     background: url("../../imgs/articles/dissenyprod_318.jpg");
-    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
     justify-content: flex-end;
 }
 
 #beltnav article:nth-child(3) {
     background: url("../../imgs/articles/classe2_300.jpg");
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -296,10 +303,11 @@ main>section>article a {
     display: inline-block;
     margin-top:.6rem;
     padding: .2rem;
+    transition: all .25s ease-in-out;
 }
 
 main>section>article a:hover {
-    background:#5297ac;
+    background:red;
 }
 
 
@@ -315,8 +323,8 @@ footer {
 
     padding: 2rem;
 
-    font-family: var(--sans4);
-    font-size: 1em;
+    font-family: var(--sans1);
+    font-size: .85em;
     font-weight: 400;
 }
 
