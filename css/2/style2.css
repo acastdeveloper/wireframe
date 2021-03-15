@@ -1,11 +1,12 @@
 @import url("./estructura2.css");
 @import url("./media2.css");
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700&family=Nunito+Sans:wght@200;300;400;600&family=Oswald:wght@200;300;400;600;700&family=Roboto+Slab:wght@200;400;600&display=swap'); */
 
 :root {
     --sans1: 'Oswald', sans-serif;
     --sans2: 'Bebas Neue', cursive;
     --sans3: 'Noto Sans JP', sans-serif;
-    --sans4: 'Nunito', sans-serif;
+    --sans4: 'Nunito Sans', sans-serif;
     --serif1:'Roboto Slab', serif;
 }
 
