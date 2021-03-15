@@ -133,10 +133,13 @@ flex-wrap:wrap;
     margin-bottom:.5rem;
   }
 
+
+
   main>section>article {
     margin: 3rem 0;
+    grid-column:1 / 6;
 
-    display: block;
+    /* display: block; */
 }
 
 
@@ -214,6 +217,7 @@ main>section>article>figure {
         margin: 3rem 0;
 
         display: block;
+        grid-column:1 / 6;
     }
 
 
