@@ -335,6 +335,13 @@ main>section>article#art-javascript>figure {
     border-radius: 50%;
 }
 
+main>section>article#art-perfil>figure {
+    background: url("../../imgs/articles/perfil2.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
 
 main>section>article a {
     color:white;
