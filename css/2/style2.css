@@ -178,7 +178,7 @@ nav ul li a.selected {
 
 #beltnav article>section {
     background: #101c2799;
-    /* padding: .5rem; */
+    padding: .5rem;
 }
 
 #beltnav article>section>.time {
@@ -310,6 +310,30 @@ main>section>article#art-poo>figure {
     background-position: top center;
     border-radius: 50%;
 }
+
+
+main>section>article#art-html>figure {
+    background: url("../../imgs/articles/html5.svg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+main>section>article#art-css>figure {
+    background: url("../../imgs/articles/css3.png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+
+main>section>article#art-javascript>figure {
+    background: url("../../imgs/articles/js.svg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
 
 main>section>article a {
     color:white;
