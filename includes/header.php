@@ -1,5 +1,3 @@
-<?php ?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -34,13 +32,12 @@
 </head>
 
 <body>
-    <?php 
-         //$enlace_actual = 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
-    //echo $enlace_actual;
-    ?>
+<?php
+$url = $_SERVER["HTTP_HOST"];
+?>
     <div id="wrap">
         <header>
-            <h1 id="logo"><a href="index.html" alt="home">{ac} alexander castelló / </a><span class="tag midcolor">Code
+            <h1 id="logo"><a href="https://<?php echo($url) ?>" alt="home">{ac} alexander castelló / </a><span class="tag midcolor">Code
                     & Design
                     & Plus</span></h1>
             <div id="social">
@@ -51,10 +48,10 @@
         </header>
         <nav>
             <ul>
-                <li><a href="index.html" class="selected">Home</a></li>
-                <li><a href="how-to.html">How to</a></li>
-                <li><a href="resources.html">Resources</a></li>
-                <li><a href="snippets.html">Snippets</a></li>
-                <li><a href="about-me.html">About me</a></li>
+                <li><a href="index.php" class="<?php echo(isset($home)?'selected':'') ?>">Home</a></li>
+                <li><a href="how-to.php"  class="<?php echo(isset($howto)?'selected':'') ?>">How to</a></li>
+                <li><a href="resources.php"  class="<?php echo(isset($resources)?'selected':'') ?>">Resources</a></li>
+                <li><a href="snippets.php"  class="<?php echo(isset($snippets)?'selected':'') ?>">Snippets</a></li>
+                <li><a href="about-me.php"  class="<?php echo(isset($aboutme)?'selected':'') ?>">About me</a></li>
             </ul>
         </nav>
