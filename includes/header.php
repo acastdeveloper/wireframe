@@ -13,7 +13,9 @@
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
+
     <link rel="stylesheet" href="./css/2/style2.css">
     <style>
         #wrap {
@@ -22,9 +24,8 @@
     </style>
 </head>
 
-<body><?php
-$url=$_SERVER["HTTP_HOST"];
-?><div id="wrap">
+<body>
+    <div id="wrap">
         <header>
             <h1 id="logo"><a href="index.php" alt="home">{ac} alexander castelló / </a><span class="tag midcolor">Code &
                     Design & Plus</span></h1>
