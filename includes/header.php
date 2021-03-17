@@ -22,6 +22,12 @@
     <!-- ESTILS -->
     <link rel="stylesheet" href="./css/2/style2.css">
 
+
+    <!-- GOOGLE FONTS MINIMIZED-->
+    <link rel="stylesheet" href="./css/google.fonts.mini.css">
+
+
+
     <style>
         /* To prevent FOUC while is loading page, PART 1 */
         #wrap {
@@ -37,7 +43,7 @@ $url = $_SERVER["HTTP_HOST"];
 ?>
     <div id="wrap">
         <header>
-            <h1 id="logo"><a href="https://<?php echo($url) ?>" alt="home">{ac} alexander castelló / </a><span class="tag midcolor">Code
+            <h1 id="logo"><a href="index.php" alt="home">{ac} alexander castelló / </a><span class="tag midcolor">Code
                     & Design
                     & Plus</span></h1>
             <div id="social">
