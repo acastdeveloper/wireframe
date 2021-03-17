@@ -23,11 +23,6 @@
     <link rel="stylesheet" href="./css/2/style2.css">
 
 
-    <!-- GOOGLE FONTS MINIMIZED-->
-    <link rel="stylesheet" href="./css/google.fonts.mini.css">
-
-
-
     <style>
         /* To prevent FOUC while is loading page, PART 1 */
         #wrap {
