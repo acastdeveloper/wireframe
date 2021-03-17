@@ -27,7 +27,8 @@
     </script>
 
     <!-- ICONS DE FONT AWESOEME -->
-    <script src="https://kit.fontawesome.com/f5043cec08.js" crossorigin="anonymous"></script>
+    <!-- <script src="https://kit.fontawesome.com/f5043cec08.js" crossorigin="anonymous"></script> -->
+    <script src="./js/f5043cec08.js" crossorigin="anonymous"></script>
 
 
   <!-- FOUC -->
