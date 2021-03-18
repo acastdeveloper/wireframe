@@ -1,6 +1,9 @@
 <footer>© 2021{ac} alexandercastello.com | All rights reserved | <a href="#">Contact</a></footer>
 </div>
 <script type="text/javascript">
+
+/* **** FONT LOADER **** */
+
     WebFontConfig = {
         google: {
             families: ['Noto+Sans+JP:100,300,400,500,700', 'Nunito+Sans:200,300,400,600',
