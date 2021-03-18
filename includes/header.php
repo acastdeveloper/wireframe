@@ -17,6 +17,9 @@
     <style>
         #wrap {
             display: none;
+            <?php if($header){
+                echo("grid-template-rows: auto auto auto 1fr auto;");
+            } ?>
         }
     </style>
 </head>

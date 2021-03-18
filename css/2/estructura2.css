@@ -29,7 +29,8 @@ body {
     padding: var(--medianil1) calc(2*var(--medianil1));
 
     display: grid;
-    grid-template-rows: auto auto auto 1fr auto;
+    /* grid-template-rows: auto auto auto 1fr auto; */
+    grid-template-rows: auto auto 1fr auto;
     grid-row-gap: var(--medianil1);
 }
 
@@ -179,5 +180,6 @@ main>section>article>figure {
 
 /* **** FOOTER **** */
 footer {
-    height: auto;
+
+    max-height:max-content;
 }
