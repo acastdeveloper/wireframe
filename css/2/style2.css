@@ -306,7 +306,7 @@ main>section>article#art-debug>figure {
 }
 
 main>section>article#art-poo>figure {
-    background: url("../../imgs/articles/object.jpg");
+    background: url("../../imgs/articles/object.webp");
     background-size: cover;
     background-position: top center;
     border-radius: 50%;
