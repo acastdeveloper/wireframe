@@ -1,6 +1,6 @@
 <?php
 $home=true;
-include_once("./includes/header.php");
+require_once("./includes/header.php");
 ?><!- BELTNAV ->
     <div id="beltnav">
         <article>

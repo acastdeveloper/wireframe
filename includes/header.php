@@ -17,24 +17,30 @@
     <style>
         #wrap {
             display: none;
-            <?php if($header){
-                echo("grid-template-rows: auto auto auto 1fr auto;");
-            } ?>
+            <?php
+                if($_SERVER["REQUEST_URI"]=="/") {
+                    echo("grid-template-rows: auto auto auto 1fr auto;");
+                }
+            ?>
         }
     </style>
+
+
+
 </head>
 
 <body>
+
     <div id="wrap">
         <header>
-            <h1 id="logo"><a href="index.php" alt="home">{ac} alexander castelló / </a><span class="tag midcolor">Code &
+            <h1 id="logo"><a href="./" alt="home">{ac} alexander castelló / </a><span class="tag midcolor">Code &
                     Design & Plus</span></h1>
             <div id="social"><a href="#"><i class=" fab fa-github"></i></a><a href="#"><i
                         class="fab fa-linkedin-in"></i></a><a href="#"><i class="fas fa-at"></i></a></div>
         </header>
         <nav>
             <ul>
-                <li><a href="index.php" class="<?php echo(isset($home)?'selected':'') ?>">Home</a></li>
+                <li><a href="./" class="<?php echo(isset($home)?'selected':'') ?>">Home</a></li>
                 <li><a href="how-to.php" class="<?php echo(isset($howto)?'selected':'') ?>">How to</a></li>
                 <li><a href="resources.php" class="<?php echo(isset($resources)?'selected':'') ?>">Resources</a></li>
                 <li><a href="snippets.php" class="<?php echo(isset($snippets)?'selected':'') ?>">Snippets</a></li>
