@@ -31,7 +31,7 @@
 
 <body>
     <?php
-        echo $_SERVER["REQUEST_URI"];
+        echo($_SERVER["PHP_SELF"]);
     ?>
 
     <div id="wrap">
