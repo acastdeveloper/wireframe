@@ -38,10 +38,10 @@
         </header>
         <nav>
             <ul>
-                <li><a href="./" class="<?php echo(isset($home)?'selected':'') ?>">Home</a></li>
-                <li><a href="how-to.php" class="<?php echo(isset($howto)?'selected':'') ?>">How to</a></li>
-                <li><a href="resources.php" class="<?php echo(isset($resources)?'selected':'') ?>">Resources</a></li>
-                <li><a href="snippets.php" class="<?php echo(isset($snippets)?'selected':'') ?>">Snippets</a></li>
-                <li><a href="about-me.php" class="<?php echo(isset($aboutme)?'selected':'') ?>">About me</a></li>
+                <li><a href="./" class="<?php echo(isset($home)?'selected':'') ?>" role="button">Home</a></li>
+                <li><a href="how-to.php" class="<?php echo(isset($howto)?'selected':'') ?>" role="button">How to</a></li>
+                <li><a href="resources.php" class="<?php echo(isset($resources)?'selected':'') ?>" role="button">Resources</a></li>
+                <li><a href="snippets.php" class="<?php echo(isset($snippets)?'selected':'') ?>" role="button">Snippets</a></li>
+                <li><a href="about-me.php" class="<?php echo(isset($aboutme)?'selected':'') ?>" role="button">About me</a></li>
             </ul>
         </nav>
