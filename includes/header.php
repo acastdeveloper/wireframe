@@ -10,12 +10,7 @@
 
     <title>{ac} alexander castelló / code & design & plus</title>
 
-    <link rel="stylesheet" href="./css/2/style2.css" media="print" onload="this.media='all'">
-    <!-- Per a navegadors antics que carregui el full d'estils de forma normal -->
-    <noscript>
-        <link rel="stylesheet" href="./css/2/style2.css">
-    </noscript>
-
+    <link rel="stylesheet" href="./css/2/style2.css">
 
 
     <style>
