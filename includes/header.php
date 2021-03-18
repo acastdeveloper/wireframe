@@ -31,7 +31,7 @@
 
 <body>
     <?php
-        echo($_SERVER["PHP_SELF"]);
+        echo($_SERVER["SCRIPT_NAME"]);
     ?>
 
     <div id="wrap">
