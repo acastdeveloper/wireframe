@@ -13,8 +13,11 @@
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
-    <link rel="stylesheet" href="./css/2/style2.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet" href="./css/2/style2.css">
+    <link rel="import" href="./css/2/estructura2-min.css" async>
+    <link rel="import" href="./css/2/media2-min.css" async>
+
     <style>
         #wrap {
             display: none;
