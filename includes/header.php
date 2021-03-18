@@ -30,10 +30,6 @@
 </head>
 
 <body>
-    <?php
-        echo($_SERVER["SCRIPT_NAME"]);
-    ?>
-
     <div id="wrap">
         <header>
             <h1 id="logo"><a href="./" alt="home">{ac} alexander castelló / </a><span class="tag midcolor">Code &
