@@ -30,6 +30,9 @@
 </head>
 
 <body>
+    <?php
+        echo $_SERVER["REQUEST_URI"];
+    ?>
 
     <div id="wrap">
         <header>
