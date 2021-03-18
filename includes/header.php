@@ -18,7 +18,7 @@
         #wrap {
             display: none;
             <?php
-                if($_SERVER["REQUEST_URI"]=="/") {
+                if($_SERVER["REQUEST_URI"]=="/" || $_SERVER["REQUEST_URI"]=="/wireframe/" || $_SERVER["REQUEST_URI"]=="/wireframe/index.php" ) {
                     echo("grid-template-rows: auto auto auto 1fr auto;");
                 }
             ?>
