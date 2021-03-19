@@ -17,13 +17,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link rel="preconnect" href="https://kit.fontawesome.com" />
     <link rel="stylesheet" href="./css/2/style2.css">
+    <link rel="preload" href=".css/2/estructura2-min.css">
+    <link rel="preload" href=".css/2/media2-min.css">
     <style>
         #wrap {
             display: none;
-            <?php
-                if($_SERVER["REQUEST_URI"]=="/" || $_SERVER["REQUEST_URI"]=="/wireframe/" || $_SERVER["REQUEST_URI"]=="/wireframe/index.php" ) {
-                    echo("grid-template-rows: auto auto auto 1fr auto;");
-                }
+
+            <?php if($_SERVER["REQUEST_URI"]=="/"|| $_SERVER["REQUEST_URI"]=="/wireframe/"|| $_SERVER["REQUEST_URI"]=="/wireframe/index.php") {
+                echo("grid-template-rows: auto auto auto 1fr auto;");
+            }
+
             ?>
         }
     </style>
@@ -41,9 +44,13 @@
         <nav>
             <ul>
                 <li><a href="./" class="<?php echo(isset($home)?'selected':'') ?>" role="button">Home</a></li>
-                <li><a href="how-to.php" class="<?php echo(isset($howto)?'selected':'') ?>" role="button">How to</a></li>
-                <li><a href="resources.php" class="<?php echo(isset($resources)?'selected':'') ?>" role="button">Resources</a></li>
-                <li><a href="snippets.php" class="<?php echo(isset($snippets)?'selected':'') ?>" role="button">Snippets</a></li>
-                <li><a href="about-me.php" class="<?php echo(isset($aboutme)?'selected':'') ?>" role="button">About me</a></li>
+                <li><a href="how-to.php" class="<?php echo(isset($howto)?'selected':'') ?>" role="button">How to</a>
+                </li>
+                <li><a href="resources.php" class="<?php echo(isset($resources)?'selected':'') ?>"
+                        role="button">Resources</a></li>
+                <li><a href="snippets.php" class="<?php echo(isset($snippets)?'selected':'') ?>"
+                        role="button">Snippets</a></li>
+                <li><a href="about-me.php" class="<?php echo(isset($aboutme)?'selected':'') ?>" role="button">About
+                        me</a></li>
             </ul>
         </nav>
