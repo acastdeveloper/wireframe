@@ -14,6 +14,7 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://kit.fontawesome.com" />
     <link rel="stylesheet" href="./css/2/style2.css">
     <style>
         #wrap {
