@@ -10,10 +10,9 @@
     --serif1:'Roboto Slab', serif;
 }
 
-
-
-
-
+* {
+    box-sizing: border-box;
+}
 
 /* **** GLOBALS **** */
 body {
