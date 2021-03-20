@@ -57,7 +57,6 @@
     <link rel="stylesheet" href="./css/2/style2.css">
     <link rel="stylesheet" href="./css/2/estructura2-min.css" async>
     <link rel="stylesheet" href="./css/2/media2-min.css" async>
-    <link rel="stylesheet" href="./css/google.fonts.mini.css" async>
     <style>
         #wrap {
             display: none;
