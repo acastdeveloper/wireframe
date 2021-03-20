@@ -33,7 +33,7 @@
 
 <!-- PRELOADING IMAGES -->
 <!-- common images -->
-<link rel="preload" href="./imgs/bg/vecto-bg.min.svg" as="image" async>
+<link rel="preload" href="./imgs/bg/vecto-bg.min.svg" as="image" type="image/svg+xml" async>
 
 
     <link rel="stylesheet" href="./css/2/style2-min.css" async>
