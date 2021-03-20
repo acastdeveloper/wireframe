@@ -16,8 +16,21 @@
     <meta name="theme-color" content="#ffffff">
 
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link rel="preconnect" href="https://kit.fontawesome.com" />
+    <!-- PRELOADING GOOGLE FONTS AS FONTS -->
+    <link rel="preload" as="font" href="https://fonts.gstatic.com/s/oswald/v36/TK3iWkUHHAIjg752GT8G.woff2" crossorigin>
+    <link rel="preload" as="font" href="https://fonts.gstatic.com/s/notosansjp/v28/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.119.woff2" crossorigin>
+    <link rel="preload" as="font" href="https://fonts.gstatic.com/s/notosansjp/v28/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.118.woff2" crossorigin>
+    <link rel="preload" as="font" href="https://fonts.gstatic.com/s/nunitosans/v6/pe03MImSLYBIv1o4X1M8cc9iB85tU1E.woff2" crossorigin>
+    <link rel="preload" as="font" href="https://fonts.gstatic.com/s/robotoslab/v13/BngMUXZYTXPIvIBgJJSb6ufN5qU.woff2" crossorigin>
+    <link rel="preload" as="font" href="https://fonts.gstatic.com/s/notosansjp/v28/-F6ofjtqLzI2JPCgQBnw7HFQoggPkENvl4B0ZLgOquiXidBa3qHiDcp2RQ.119.woff2" crossorigin>
+    <link rel="preload" as="font" href="https://fonts.gstatic.com/s/notosansjp/v28/-F6pfjtqLzI2JPCgQBnw7HFQaioq1xVxjfp_dakBof6Bs-tb3ab2FNISVac.119.woff2" crossorigin>
+    <link rel="preload" as="font" href="https://fonts.gstatic.com/s/nunitosans/v6/pe03MImSLYBIv1o4X1M8cc9yAs5tU1E.woff2" crossorigin>
+    <link rel="preload" as="font" href="https://fonts.gstatic.com/s/nunitosans/v6/pe03MImSLYBIv1o4X1M8cc8WAc5tU1E.woff2" crossorigin>
+    <link rel="preload" as="font" href="https://fonts.gstatic.com/s/nunitosans/v6/pe0qMImSLYBIv1o4X1M8cce9I9s.woff2" crossorigin>
 
+
+    <link rel="preconnect" href="https://kit.fontawesome.com" />
+    <!-- PRELOADING FONTAWESOME FONTS AS FONTS -->
     <link rel="preload" as="font" href="https://ka-f.fontawesome.com/releases/v5.15.2/webfonts/free-fa-solid-900.woff2"
         crossorigin>
     <link rel="preload" as="font" href="https://ka-f.fontawesome.com/releases/v5.15.2/webfonts/free-fa-brands-400.woff2"
