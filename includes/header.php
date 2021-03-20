@@ -41,7 +41,7 @@
     <link rel="preload" as="font" href="https://fonts.gstatic.com/s/nunitosans/v6/pe0qMImSLYBIv1o4X1M8cce9I9s.woff2"
         crossorigin>
     <link rel="preload" href="https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js" as="script" crossorigin>
-    <link rel="preload" href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:100,300,400,500,700%7CNunito+Sans:200,300,400,600%7COswald:200,300,400,600,700%7CRoboto+Slab:200,400,600" as="style" crossorigin="">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:100,300,400,500,700%7CNunito+Sans:200,300,400,600%7COswald:200,300,400,600,700%7CRoboto+Slab:200,400,600" as="style" crossorigin>
 
 
 
