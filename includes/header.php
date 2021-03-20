@@ -20,7 +20,7 @@
 
 
     <link rel="preconnect" href="https://kit.fontawesome.com">
-    <link rel="preload" href="https://kit.fontawesome.com/f5043cec08.js" crossorigin="anonymous" as="script" type="text/javascript">
+    <link rel="preload" href="https://kit.fontawesome.com/f5043cec08.js" crossorigin="anonymous" as="script" type="text/javascript" async>
     <!-- <link rel="preload" href="https://ka-f.fontawesome.com/releases/v5.15.2/css/free.min.css?token=f5043cec08" as="style" crossorigin="anonymous" type="text/css"> -->
 
 
