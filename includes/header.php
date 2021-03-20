@@ -14,25 +14,10 @@
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
+
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link rel="preload" href="https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js" as="script" crossorigin>
-    <link rel="preload"
-        href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:100,300,400,500,700%7CNunito+Sans:200,300,400,600%7COswald:200,300,400,600,700%7CRoboto+Slab:200,400,600"
-        as="style" crossorigin>
-    <link rel="preload" as="font" href="https://fonts.gstatic.com/s/oswald/v36/TK3iWkUHHAIjg752GT8G.woff2" crossorigin>
-    <link rel="preload" as="font"
-        href="https://fonts.gstatic.com/s/notosansjp/v28/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.119.woff2"
-        crossorigin>
-    <link rel="preload" as="font"
-        href="https://fonts.gstatic.com/s/notosansjp/v28/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.118.woff2"
-        crossorigin>
-    <link rel="preload" as="font" href="https://fonts.gstatic.com/s/nunitosans/v6/pe03MImSLYBIv1o4X1M8cc9iB85tU1E.woff2"
-        crossorigin>
-    <link rel="preload" as="font" href="https://fonts.gstatic.com/s/robotoslab/v13/BngMUXZYTXPIvIBgJJSb6ufN5qU.woff2"
-        crossorigin>
-
-
     <link rel="preconnect" href="https://kit.fontawesome.com" />
+
     <link rel="preload" as="font" href="https://ka-f.fontawesome.com/releases/v5.15.2/webfonts/free-fa-solid-900.woff2"
         crossorigin>
     <link rel="preload" as="font" href="https://ka-f.fontawesome.com/releases/v5.15.2/webfonts/free-fa-brands-400.woff2"
