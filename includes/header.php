@@ -15,11 +15,12 @@
 
     <!-- GOOGLE FONTS -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link rel="preload" href="https://fonts.gstatic.com/s/oswald/v36/TK3iWkUHHAIjg752GT8G.woff2" as="font" async crossorigin="anonymous">
+
+    <!-- <link rel="preload" href="https://fonts.gstatic.com/s/oswald/v36/TK3iWkUHHAIjg752GT8G.woff2" as="font" async crossorigin="anonymous">
     <link rel="preload" href="https://fonts.gstatic.com/s/notosansjp/v28/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.119.woff2" as="font" async crossorigin="anonymous">
     <link rel="preload" href="https://fonts.gstatic.com/s/robotoslab/v13/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojISmb2Rj.woff2" as="font" async crossorigin="anonymous">
     <link rel="preload" href="https://fonts.gstatic.com/s/nunitosans/v6/pe0qMImSLYBIv1o4X1M8cce9I9s.woff2" as="font" async crossorigin="anonymous">
-    <link rel="preload" href="https://fonts.gstatic.com/s/notosansjp/v28/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.118.woff2" as="font" async crossorigin="anonymous">
+    <link rel="preload" href="https://fonts.gstatic.com/s/notosansjp/v28/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.118.woff2" as="font" async crossorigin="anonymous"> -->
 
 
     <link rel="preconnect" href="https://kit.fontawesome.com">
