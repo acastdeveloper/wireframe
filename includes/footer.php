@@ -1,13 +1,18 @@
 <footer>© 2021{ac} alexandercastello.com | All rights reserved | <a href="#">Contact</a></footer>
 </div>
-<script type="text/javascript">
 
-/* **** FONT LOADER **** */
+
+<script type="text/javascript">
+    document.getElementById("wrap").style.display = "grid";
+</script>
+
+<script type="text/javascript">
+    /* **** FONT LOADER **** */
 
     WebFontConfig = {
         google: {
-            families: ['Noto+Sans+JP:400', 'Nunito+Sans:600',
-                'Oswald:100,300,700', 'Roboto+Slab:400,600'
+            families: ['Noto+Sans+JP:400', 'Nunito+Sans:900',
+                'Oswald:200,400,700', 'Roboto+Slab:300'
             ]
         }
     };
@@ -23,9 +28,8 @@
 </script>
 
 <script src="https://kit.fontawesome.com/f5043cec08.js" crossorigin="anonymous"></script>
-<script type="text/javascript">
-    document.getElementById("wrap").style.display = "grid";
-</script>
+
+
 </body>
 
 </html>
