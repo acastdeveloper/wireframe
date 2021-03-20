@@ -49,8 +49,8 @@
 
 
     <link rel="stylesheet" href="./css/2/style2.css">
-    <link rel="stylesheet" href="./css/2/estructura2-min.css" async>
-    <link rel="stylesheet" href="./css/2/media2-min.css" async>
+    <link rel="preload" href="./css/2/estructura2-min.css" as="style" as="style" onload="this.rel='stylesheet'">
+    <link rel="preload" href="./css/2/media2-min.css" as="style" onload="this.rel='stylesheet'">
     <style>
         #wrap {
             display: none;
@@ -58,6 +58,9 @@
             <?php if($_SERVER["REQUEST_URI"]=="/"|| $_SERVER["REQUEST_URI"]=="/wireframe/"|| $_SERVER["REQUEST_URI"]=="/wireframe/index.php") {
                 echo("grid-template-rows: auto auto auto 1fr auto;");
             }
+
+
+
 
             ?>
         }
