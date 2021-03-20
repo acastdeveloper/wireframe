@@ -6,13 +6,12 @@
     document.getElementById("wrap").style.display = "grid";
 </script>
 
-<!-- <script type="text/javascript">
+<script type="text/javascript">
     /* **** FONT LOADER **** */
 
     WebFontConfig = {
         google: {
-            families: ['Noto+Sans+JP:400', 'Nunito+Sans:900',
-                'Oswald:200,400,700', 'Roboto+Slab:300'
+            families: ['Noto+Sans+JP:400', 'Nunito+Sans:900','Oswald:200,400,700', 'Roboto+Slab:300'
             ]
         }
     };
@@ -25,7 +24,7 @@
         var s = document.getElementsByTagName('script')[0];
         s.parentNode.insertBefore(wf, s)
     })();
-</script> -->
+</script>
 
 <script src="https://kit.fontawesome.com/f5043cec08.js" crossorigin="anonymous"></script>
 
