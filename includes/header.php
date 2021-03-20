@@ -26,6 +26,8 @@
     <link rel="preload" href="https://ka-f.fontawesome.com/releases/v5.15.2/webfonts/free-fa-solid-900.woff2" as="font" crossorigin="anonymous">
     <link rel="preload" href="https://ka-f.fontawesome.com/releases/v5.15.2/webfonts/free-fa-brands-400.woff2" as="font" crossorigin="anonymous">
 
+
+
     <link rel="stylesheet" href="./css/2/style2.css" async>
 <!--
     <link rel="preload" href="css/2/estructura2-min.css" as="style">

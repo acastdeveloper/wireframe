@@ -1,11 +1,6 @@
 <footer>© 2021{ac} alexandercastello.com | All rights reserved | <a href="#">Contact</a></footer>
 </div>
 
-
-<script type="text/javascript">
-    document.getElementById("wrap").style.display = "grid";
-</script>
-
 <script type="text/javascript">
     /* **** FONT LOADER **** */
 
@@ -27,6 +22,11 @@
 </script>
 
 <script src="https://kit.fontawesome.com/f5043cec08.js" crossorigin="anonymous"></script>
+
+
+<script type="text/javascript">
+    document.getElementById("wrap").style.display = "grid";
+</script>
 
 
 </body>
