@@ -13,6 +13,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Nunito+Sans:wght@400&family=Oswald:wght@200;400;700&family=Roboto+Slab:wght@400&display=swap">
 
+    <link rel="preload" href="https://fonts.gstatic.com/s/oswald/v36/TK3iWkUHHAIjg752GT8G.woff2" as="font" async crossorigin>
+
+    <link rel="preload" href="https://fonts.gstatic.com/s/notosansjp/v28/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.119.woff2" as="font" async crossorigin>
+
+
     <link rel="preconnect" href="https://kit.fontawesome.com" />
     <link rel="preload" href="https://kit.fontawesome.com/f5043cec08.js" crossorigin="anonymous" as="script" type="text/javascript" />
     <link rel="preload" href="https://ka-f.fontawesome.com/releases/v5.15.2/webfonts/free-fa-solid-900.woff2" as="font" crossorigin="anonymous">
