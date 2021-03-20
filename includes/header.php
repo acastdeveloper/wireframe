@@ -22,10 +22,9 @@
 
 
     <link rel="preconnect" href="https://kit.fontawesome.com" />
-    <link rel="preload" href="https://kit.fontawesome.com/f5043cec08.js" crossorigin="anonymous" as="script" type="text/javascript" />
-    <link rel="preload" href="https://ka-f.fontawesome.com/releases/v5.15.2/webfonts/free-fa-solid-900.woff2" as="font" crossorigin="anonymous">
-    <link rel="preload" href="https://ka-f.fontawesome.com/releases/v5.15.2/webfonts/free-fa-brands-400.woff2" as="font" crossorigin="anonymous">
-
+    <link rel="preload" href="https://kit.fontawesome.com/f5043cec08.js" crossorigin="anonymous" as="script" type="text/javascript" async>
+    <link rel="preload" href="https://ka-f.fontawesome.com/releases/v5.15.2/webfonts/free-fa-solid-900.woff2" as="font" crossorigin="anonymous" async>
+    <link rel="preload" href="https://ka-f.fontawesome.com/releases/v5.15.2/webfonts/free-fa-brands-400.woff2" as="font" crossorigin="anonymous" async>
 
 
     <link rel="stylesheet" href="./css/2/style2.css" async>
