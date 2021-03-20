@@ -13,12 +13,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <!-- <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Nunito+Sans:wght@400&family=Oswald:wght@200;400;700&family=Roboto+Slab:wght@400&display=swap"> -->
 
-    <link rel="preload" href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:400%7CNunito+Sans:400%7COswald:200,400,700%7CRoboto+Slab:400" as="style" crossorigin="anonymous" async>
-    <link rel="preload" href="https://fonts.gstatic.com/s/oswald/v36/TK3iWkUHHAIjg752GT8G.woff2" as="font" async crossorigin>
-    <link rel="preload" href="https://fonts.gstatic.com/s/notosansjp/v28/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.119.woff2" as="font" async crossorigin="anonymous">
-    <link rel="preload" href="https://fonts.gstatic.com/s/robotoslab/v13/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojISmb2Rj.woff2" as="font" async crossorigin="anonymous">
-    <link rel="preload" href="https://fonts.gstatic.com/s/nunitosans/v6/pe0qMImSLYBIv1o4X1M8cce9I9s.woff2" as="font" async crossorigin="anonymous">
-    <link rel="preload" href="https://fonts.gstatic.com/s/notosansjp/v28/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.118.woff2" as="font" async crossorigin="anonymous">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:400%7CNunito+Sans:400%7COswald:200,400,700%7CRoboto+Slab:400" as="style" async>
+    <link rel="preload" href="https://fonts.gstatic.com/s/oswald/v36/TK3iWkUHHAIjg752GT8G.woff2" as="font" async>
+    <link rel="preload" href="https://fonts.gstatic.com/s/notosansjp/v28/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.119.woff2" as="font" async>
+    <link rel="preload" href="https://fonts.gstatic.com/s/robotoslab/v13/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojISmb2Rj.woff2" as="font" async >
+    <link rel="preload" href="https://fonts.gstatic.com/s/nunitosans/v6/pe0qMImSLYBIv1o4X1M8cce9I9s.woff2" as="font" async>
+    <link rel="preload" href="https://fonts.gstatic.com/s/notosansjp/v28/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.118.woff2" as="font" async>
 
 
     <link rel="preconnect" href="https://kit.fontawesome.com" />
