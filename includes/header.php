@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="This is just a wireframe">
     <title>{ac} alexander castelló / code & design & plus</title>
-    <link rel="preload" type="image/png" sizes="16x16" href="/favicon-16x16.png" as="image">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 
     <!-- PRECONNECTING AND PRELOADING GOOGLEFONTS FILES -->
