@@ -41,6 +41,8 @@
         crossorigin>
     <link rel="preload" as="font" href="https://fonts.gstatic.com/s/nunitosans/v6/pe0qMImSLYBIv1o4X1M8cce9I9s.woff2"
         crossorigin>
+        <link rel="preload" href="https://fonts.gstatic.com/s/notosansjp/v28/-F6pfjtqLzI2JPCgQBnw7HFQMisq1xVxjfp_dakBof6Bs-tb3ab2FNISVac.119.woff2" as="font" crossorigin>
+        <link rel="preload" href="https://fonts.gstatic.com/s/notosansjp/v28/-F6pfjtqLzI2JPCgQBnw7HFQei0q1xVxjfp_dakBof6Bs-tb3ab2FNISVac.119.woff2" as="font" crossorigin>
 
 
 
@@ -52,7 +54,13 @@
         crossorigin>
 
 
+<!-- PRELOADING OWN COMMON DECORATION IMAGES FOR ALL PAGES -->
     <link rel="preload" href="imgs/bg/vecto-bg.svg" as="image">
+    <link rel="preload" href="favicon-32x32.png" as="image">
+    <link rel="preload" href="imgs/bg/vecto-bg.svg" as="image">
+
+
+
 
     <link rel="stylesheet" href="./css/2/style2.css">
     <link rel="stylesheet" href="./css/2/estructura2-min.css">
