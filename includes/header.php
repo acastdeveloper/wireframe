@@ -17,8 +17,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link rel="preconnect" href="https://kit.fontawesome.com" />
     <link rel="stylesheet" href="./css/2/style2.css">
-    <link rel="preload" href="css/2/estructura2-min.css" as="style">
-    <link rel="preload" href="css/2/media2-min.css" as="style">
+    <link rel="stylesheet" href="./css/2/estructura2-min.css">
+    <link rel="stylesheet" href="./css/2/media2-min.css">
+    <!-- <link rel="preload" href="css/2/estructura2-min.css" as="style">
+    <link rel="preload" href="css/2/media2-min.css" as="style"> -->
     <link rel="preload" href="https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js" as="script">
      <link rel="preload" href="https://kit.fontawesome.com/f5043cec08.js" as="script">
 
