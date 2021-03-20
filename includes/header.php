@@ -54,8 +54,8 @@
         <header>
             <h1 id="logo"><a href="./" alt="home">{ac} alexander castelló / </a><span class="tag midcolor">Code &
                     Design & Plus</span></h1>
-            <div id="social"><a href="#"><i class=" fab fa-github"></i></a><a href="#"><i
-                        class="fab fa-linkedin-in"></i></a><a href="#"><i class="fas fa-at"></i></a></div>
+            <div id="social"><a href="#" title="Github"><i class=" fab fa-github"></i></a><a href="#" title="Linkedin"><i
+                        class="fab fa-linkedin-in"></i></a><a href="#" title="email"><i class="fas fa-at"></i></a></div>
         </header>
         <nav>
             <ul>
