@@ -20,7 +20,7 @@
     <link rel="preload" href="https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js" crossorigin="anonymous" as="script" type="text/javascript" />
 
     <link rel="preconnect" href="https://kit.fontawesome.com" />
-    <link rel="preload" href="https://kit.fontawesome.com/f5043cec08.js" crossorigin="anonymous" as="script" type="text/javascript" />
+    <link rel="preload" href="https://kit.fontawesome.com/f5043cec08.js" crossorigin as="script" type="text/javascript" />
 
     <link rel="stylesheet" href="./css/2/style2.css">
     <link rel="preload" href="css/2/estructura2-min.css" as="style">
