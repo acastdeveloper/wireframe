@@ -4,22 +4,22 @@
 
 /* **** FONT LOADER **** */
 
-    WebFontConfig = {
-        google: {
-            families: ['Noto+Sans+JP:100,300,400,500,700', 'Nunito+Sans:200,300,400,600',
-                'Oswald:200,300,400,600,700', 'Roboto+Slab:200,400,600'
-            ]
-        }
-    };
-    (function () {
-        var wf = document.createElement('script');
-        wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
-            '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
-        wf.type = 'text/javascript';
-        wf.async = 'true';
-        var s = document.getElementsByTagName('script')[0];
-        s.parentNode.insertBefore(wf, s)
-    })();
+    // WebFontConfig = {
+    //     google: {
+    //         families: ['Noto+Sans+JP:100,300,400,500,700', 'Nunito+Sans:200,300,400,600',
+    //             'Oswald:200,300,400,600,700', 'Roboto+Slab:200,400,600'
+    //         ]
+    //     }
+    // };
+    // (function () {
+    //     var wf = document.createElement('script');
+    //     wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+    //         '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    //     wf.type = 'text/javascript';
+    //     wf.async = 'true';
+    //     var s = document.getElementsByTagName('script')[0];
+    //     s.parentNode.insertBefore(wf, s)
+    // })();
 </script>
 <script src="https://kit.fontawesome.com/f5043cec08.js" crossorigin="anonymous"></script>
 <script type="text/javascript">
