@@ -31,6 +31,16 @@
     <link rel="preload" href="https://ka-f.fontawesome.com/releases/v5.15.2/webfonts/free-fa-brands-400.woff2" as="font" crossorigin="anonymous" async> -->
 
 
+<!-- PRELOADING IMAGES -->
+<!-- common images -->
+<link rel="preload" href="./imgs/bg/vecto-bg.min.svg" as="image" type="image/svg" async>
+<!-- not common -->
+<link rel="preload" href="./imgs/articles/codi-creatiu_318.webp" as="image" type="image/webp" async>
+<link rel="preload" href="./imgs/articles/dissenyprod_318.webp" as="image" type="image/webp" async>
+<link rel="preload" href="./imgs/articles/classe2_300.webp" as="image" type="image/webp" async>
+<link rel="preload" href="./imgs/articles/cervell332.webp" as="image" type="image/webp" async>
+<link rel="preload" href="./imgs/articles/layout.webp" as="image" type="image/webp" async>
+
     <link rel="stylesheet" href="./css/2/style2-min.css" async>
 <!--
     <link rel="preload" href="css/2/estructura2-min.css" as="style">
