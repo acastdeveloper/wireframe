@@ -33,7 +33,7 @@
 
 <!-- PRELOADING IMAGES -->
 <!-- common images -->
-<link rel="preload" href="./imgs/bg/vecto-bg.min.svg" as="image" type="image/svg" async>
+<link rel="preload" href="./imgs/bg/vecto-bg.min.svg" as="image" async>
 <!-- not common -->
 <link rel="preload" href="./imgs/articles/codi-creatiu_318.webp" as="image" type="image/webp" async>
 <link rel="preload" href="./imgs/articles/dissenyprod_318.webp" as="image" type="image/webp" async>
