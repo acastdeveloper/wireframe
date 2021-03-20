@@ -8,7 +8,7 @@
     <meta name="description" content="This is just a wireframe">
     <title>{ac} alexander castelló / code & design & plus</title>
 
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <!-- <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"> -->
 
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Nunito+Sans:wght@400&family=Oswald:wght@200;400;700&family=Roboto+Slab:wght@400&display=swap">
