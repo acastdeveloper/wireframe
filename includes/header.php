@@ -17,6 +17,8 @@
 
 
     <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preload" href="https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js" crossorigin="anonymous" as="script" type="text/javascript" />
+
     <link rel="preconnect" href="https://kit.fontawesome.com" />
     <link rel="preload" href="https://kit.fontawesome.com/f5043cec08.js" crossorigin="anonymous" as="script" type="text/javascript" />
 
