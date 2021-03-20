@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="./css/2/style2.css">
     <link rel="stylesheet" href="./css/2/estructura2-min.css">
     <link rel="stylesheet" href="./css/2/media2-min.css">
-    <link rel="preload" href="./imgs/vecto-bg.svg" as="image">
+    <link rel="preload" href="./imgs/bg/vecto-bg.svg" as="image">
     <!-- <link rel="preload" href="css/2/estructura2-min.css" as="style">
     <link rel="preload" href="css/2/media2-min.css" as="style"> -->
     <link rel="preload" href="https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js" as="script">
