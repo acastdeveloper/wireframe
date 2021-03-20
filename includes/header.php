@@ -42,7 +42,7 @@
     <link rel="preload" href="css/2/media2-min.css" as="style"> -->
     <style>
         #wrap {
-            display: none;
+            /* display: none; */
 
             <?php if($_SERVER["REQUEST_URI"]=="/"|| $_SERVER["REQUEST_URI"]=="/wireframe/"|| $_SERVER["REQUEST_URI"]=="/wireframe/index.php") {
                 echo("grid-template-rows: auto auto auto 1fr auto;");
