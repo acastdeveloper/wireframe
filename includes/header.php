@@ -11,7 +11,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Nunito+Sans:wght@900&family=Oswald:wght@200;400;700&family=Roboto+Slab:wght@300&display=swap" rel="preload" async as="style">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Nunito+Sans:wght@900&family=Oswald:wght@200;400;700&family=Roboto+Slab:wght@300&display=swap">
 
     <link rel="preconnect" href="https://kit.fontawesome.com" />
     <link rel="preload" href="https://kit.fontawesome.com/f5043cec08.js" crossorigin="anonymous" as="script" type="text/javascript" />
