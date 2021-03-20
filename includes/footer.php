@@ -6,8 +6,8 @@
 
     WebFontConfig = {
         google: {
-            families: ['Noto+Sans+JP:100,300,400,500,700', 'Nunito+Sans:200,300,400,600',
-                'Oswald:200,300,400,600,700', 'Roboto+Slab:200,400,600'
+            families: ['Noto+Sans+JP:400', 'Nunito+Sans:600',
+                'Oswald:100,300,700', 'Roboto+Slab:400,600'
             ]
         }
     };

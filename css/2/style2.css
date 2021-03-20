@@ -262,7 +262,7 @@ main>section>article h4 {
 main>section>article .small {
     font-size: .7em;
     font-family: var(--sans4);
-    font-weight: 900;
+    font-weight: 600;
 }
 
 main>section>article>figure {
