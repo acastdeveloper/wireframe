@@ -15,11 +15,12 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:100,300,400,500,700%7CNunito+Sans:200,300,400,600%7COswald:200,300,400,600,700%7CRoboto+Slab:200,400,600">
     <link rel="preconnect" href="https://kit.fontawesome.com" />
     <link rel="stylesheet" href="./css/2/style2.css">
     <link rel="stylesheet" href="./css/2/estructura2-min.css">
     <link rel="stylesheet" href="./css/2/media2-min.css">
-    <link rel="preload" href="./imgs/bg/vecto-bg.svg" as="image">
+    <link rel="preload" href="imgs/bg/vecto-bg.svg" as="image">
     <!-- <link rel="preload" href="css/2/estructura2-min.css" as="style">
     <link rel="preload" href="css/2/media2-min.css" as="style"> -->
     <link rel="preload" href="https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js" as="script">
