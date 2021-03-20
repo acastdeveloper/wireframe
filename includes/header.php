@@ -56,9 +56,6 @@
 
 <!-- PRELOADING OWN COMMON DECORATION IMAGES FOR ALL PAGES -->
     <link rel="preload" href="imgs/bg/vecto-bg.svg" as="image">
-    <link rel="preload" href="favicon-32x32.png" as="image">
-    <link rel="preload" href="imgs/bg/vecto-bg.svg" as="image">
-
 
 
 
