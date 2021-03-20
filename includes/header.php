@@ -47,14 +47,16 @@
         crossorigin>
 
 
+
+
 <!-- PRELOADING OWN COMMON DECORATION IMAGES FOR ALL PAGES -->
     <link rel="preload" href="imgs/bg/vecto-bg.svg" as="image">
 
 
 
     <link rel="stylesheet" href="./css/2/style2.css">
-    <link rel="stylesheet" href="./css/2/estructura2-min.css">
-    <link rel="stylesheet" href="./css/2/media2-min.css">
+    <link rel="stylesheet" href="./css/2/estructura2-min.css" async>
+    <link rel="stylesheet" href="./css/2/media2-min.css" async>
     <style>
         #wrap {
             display: none;
