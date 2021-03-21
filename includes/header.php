@@ -48,6 +48,10 @@
 
      <link async rel="preload" as="style" type="text/css" href="https://ka-f.fontawesome.com/releases/v5.15.2/css/free.min.css?token=f5043cec08" crossorigin="anonymous" onload="this.rel='stylesheet';">
 
+     <link async rel="preload" as="style" type="text/css" href="https://ka-f.fontawesome.com/releases/v5.15.2/css/free-v4-shims.min.css?token=f5043cec08" crossorigin="anonymous" onload="this.rel='stylesheet';">
+
+     <link async rel="preload" as="style" type="text/css" href="https://ka-f.fontawesome.com/releases/v5.15.2/css/free-v4-font-face.min.css?token=f5043cec08" crossorigin="anonymous" onload="this.rel='stylesheet';">
+
 
     <!-- PRELOADING IMAGES -->
     <!-- common images -->
