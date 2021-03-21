@@ -9,11 +9,6 @@
     <title>{ac} alexander castelló / code & design & plus</title>
 
 
-    <!-- PRELOADING SCRIPTS -->
-    <script async src="https://kit.fontawesome.com/f5043cec08.js" crossorigin="anonymous"></script>
-
-
-
     <link async rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" >
 
     <!-- preload style2 -->
