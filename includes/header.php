@@ -8,7 +8,13 @@
     <meta name="description" content="This is just a wireframe">
     <title>{ac} alexander castelló / code & design & plus</title>
 
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" async>
+
+    <!-- PRELOADING SCRIPTS -->
+    <script async src="https://kit.fontawesome.com/f5043cec08.js" crossorigin="anonymous"></script>
+
+
+
+    <link async rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" >
 
     <!-- preload style2 -->
     <link async rel="preload" as="style" type="text/css" href="./css/2/style2-min.css" onload="this.rel='stylesheet'">
@@ -63,10 +69,6 @@
     <link async rel="preload" as="style" type="text/css"
         href="https://ka-f.fontawesome.com/releases/v5.15.2/css/free-v4-font-face.min.css?token=f5043cec08"
         crossorigin="anonymous" onload="this.rel='stylesheet';">
-
-
-    <!-- PRELOADING SCRIPTS -->
-    <script async src="https://kit.fontawesome.com/f5043cec08.js" crossorigin="anonymous"></script>
 
 
 
