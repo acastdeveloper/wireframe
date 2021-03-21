@@ -12,7 +12,7 @@
     <link async rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" >
 
     <!-- preload style2 -->
-    <link async rel="preload" as="style" type="text/css" href="./css/2/style2-min.css" onload="this.rel='stylesheet'">
+    <link async rel="stylesheet" as="style" type="text/css" href="./css/2/style2-min.css">
 
     <!-- GOOGLE FONTS -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
