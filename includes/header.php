@@ -35,18 +35,18 @@
         href="https://fonts.gstatic.com/s/notosansjp/v28/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.119.woff2"
         crossorigin="anonymous" onload="this.rel='font'">
 
-        <link async rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:400%7CNunito+Sans:400%7COswald:200,400,700%7CRoboto+Slab:400" onload="this.rel='style'">
+        <link async rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:400%7CNunito+Sans:400%7COswald:200,400,700%7CRoboto+Slab:400" onload="this.rel='stylesheet'">
 
     <!-- FONT AWESOME -->
     <link rel="preconnect" href="https://kit.fontawesome.com">
 
     <link async rel="preload" as="script" type="text/javascript" href="https://kit.fontawesome.com/f5043cec08.js" crossorigin="anonymous" onload="this.rel='script'">
 
-    <!-- <link rel="preload" href="https://ka-f.fontawesome.com/releases/v5.15.2/css/free.min.css?token=f5043cec08" as="style" crossorigin="anonymous" type="text/css"> -->
-
-    <link async rel="preload" as="font" href="https://ka-f.fontawesome.com/releases/v5.15.2/webfonts/free-fa-solid-900.woff2" crossorigin="anonymous" onload="this.rel='font'">
+   <link async rel="preload" as="font" href="https://ka-f.fontawesome.com/releases/v5.15.2/webfonts/free-fa-solid-900.woff2" crossorigin="anonymous" onload="this.rel='font'">
 
     <link async rel="preload" as="font" href="https://ka-f.fontawesome.com/releases/v5.15.2/webfonts/free-fa-brands-400.woff2" crossorigin="anonymous" onload="this.rel='font'">
+
+     <link async rel="preload" as="style" type="text/css" href="https://ka-f.fontawesome.com/releases/v5.15.2/css/free.min.css?token=f5043cec08" crossorigin="anonymous" onload="this.rel='stylesheet';">
 
 
     <!-- PRELOADING IMAGES -->
