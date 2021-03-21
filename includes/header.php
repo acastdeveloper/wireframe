@@ -42,7 +42,7 @@
     <!-- FONT AWESOME -->
     <link rel="preconnect" href="https://kit.fontawesome.com">
 
-    <link async rel="preload" as="script" type="text/javascript" href="https://kit.fontawesome.com/f5043cec08.js" crossorigin="anonymous">
+    <!-- <link async rel="preload" as="script" type="text/javascript" href="https://kit.fontawesome.com/f5043cec08.js" crossorigin="anonymous"> -->
 
     <link async rel="preload" as="font"
         href="https://ka-f.fontawesome.com/releases/v5.15.2/webfonts/free-fa-solid-900.woff2" crossorigin="anonymous"
@@ -66,19 +66,7 @@
 
 
     <!-- PRELOADING SCRIPTS -->
-    <script type="text/javascript">
-        function downloadJSAtOnload() {
-            var element = document.createElement("script");
-            element.src = "https://kit.fontawesome.com/f5043cec08.js";
-            document.body.appendChild(element);
-            var element = document.createElement("script");
-        }
-        if (window.addEventListener)
-            window.addEventListener("load", downloadJSAtOnload, false);
-        else if (window.attachEvent)
-            window.attachEvent("onload", downloadJSAtOnload);
-        else window.onload = downloadJSAtOnload;
-    </script>
+    <script async src="https://kit.fontawesome.com/f5043cec08.js" crossorigin="anonymous"></script>
 
 
 
