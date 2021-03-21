@@ -9,10 +9,9 @@
     <title>{ac} alexander castelló / code & design & plus</title>
 
 
-    <link async rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" >
-
-    <!-- preload style2 -->
     <link async rel="stylesheet" as="style" type="text/css" href="./css/2/style2-min.css">
+
+    <link async rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" >
 
     <!-- GOOGLE FONTS -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
