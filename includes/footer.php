@@ -1,7 +1,7 @@
 <footer>© 2021{ac} alexandercastello.com | All rights reserved | <a href="#">Contact</a></footer>
 </div>
 
-<script type="text/javascript">
+<!-- <script type="text/javascript">
     /* **** FONT LOADER **** */
 
     WebFontConfig = {
@@ -18,7 +18,7 @@
         var s = document.getElementsByTagName('script')[0];
         s.parentNode.insertBefore(wf, s)
     })();
-</script>
+</script> -->
 
 <!-- <script src="https://kit.fontawesome.com/f5043cec08.js" crossorigin="anonymous"></script> -->
 
