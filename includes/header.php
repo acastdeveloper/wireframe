@@ -17,8 +17,7 @@
     <!-- GOOGLE FONTS -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
 
-    <link async rel="preload" as="font" href="https://fonts.gstatic.com/s/oswald/v36/TK3iWkUHHAIjg752GT8G.woff2"
-        crossorigin="anonymous" onload="this.rel='font'">
+    <link async rel="preload" as="font" href="https://fonts.gstatic.com/s/oswald/v36/TK3iWkUHHAIjg752GT8G.woff2" crossorigin="anonymous" onload="this.rel='font'">
 
     <link async rel="preload" as="font"
         href="https://fonts.gstatic.com/s/robotoslab/v13/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojISmb2Rj.woff2"
@@ -81,7 +80,7 @@
 
     <style>
         #wrap {
-            /* display: none; */
+            display: none;
 
             <?php if($_SERVER["REQUEST_URI"]=="/"|| $_SERVER["REQUEST_URI"]=="/wireframe/"|| $_SERVER["REQUEST_URI"]=="/wireframe/index.php") {
                 echo("grid-template-rows: auto auto auto 1fr auto;");

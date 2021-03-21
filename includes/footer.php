@@ -24,7 +24,7 @@
 
 
 <script type="text/javascript">
-    // document.getElementById("wrap").style.display = "grid";
+    document.getElementById("wrap").style.display = "grid";
 </script>
 
 
