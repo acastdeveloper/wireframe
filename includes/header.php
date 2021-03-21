@@ -42,8 +42,7 @@
     <!-- FONT AWESOME -->
     <link rel="preconnect" href="https://kit.fontawesome.com">
 
-    <!-- <link async rel="preload" as="script" type="text/javascript" href="https://kit.fontawesome.com/f5043cec08.js"
-        crossorigin="anonymous" onload="this.rel='script'"> -->
+    <link async rel="preload" as="script" type="text/javascript" href="https://kit.fontawesome.com/f5043cec08.js" crossorigin="anonymous">
 
     <link async rel="preload" as="font"
         href="https://ka-f.fontawesome.com/releases/v5.15.2/webfonts/free-fa-solid-900.woff2" crossorigin="anonymous"

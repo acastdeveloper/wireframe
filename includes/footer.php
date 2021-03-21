@@ -20,7 +20,7 @@
     })();
 </script>
 
-<!-- <script src="https://kit.fontawesome.com/f5043cec08.js" crossorigin="anonymous"></script> -->
+<script src="https://kit.fontawesome.com/f5043cec08.js" crossorigin="anonymous"></script>
 
 
 <script type="text/javascript">
