@@ -11,37 +11,48 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" async>
 
     <!-- preload style2 -->
-    <link async rel="preload"  as="style" type="text/css" href="./css/2/style2-min.css" onload="this.rel='stylesheet'">
+    <link async rel="preload" as="style" type="text/css" href="./css/2/style2-min.css" onload="this.rel='stylesheet'">
 
     <!-- GOOGLE FONTS -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
 
-    <link async rel="preload" as="font" href="https://fonts.gstatic.com/s/oswald/v36/TK3iWkUHHAIjg752GT8G.woff2" crossorigin="anonymous" onload="this.rel='font'">
+    <link async rel="preload" as="font" href="https://fonts.gstatic.com/s/oswald/v36/TK3iWkUHHAIjg752GT8G.woff2"
+        crossorigin="anonymous" onload="this.rel='font'">
 
-    <link async rel="preload" as="font" href="https://fonts.gstatic.com/s/notosansjp/v28/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.119.woff2" crossorigin="anonymous" onload="this.rel='font'">
+    <link async rel="preload" as="font"
+        href="https://fonts.gstatic.com/s/robotoslab/v13/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojISmb2Rj.woff2"
+        crossorigin="anonymous" onload="this.rel='font'">
 
-    <!--
-    <link rel="preload" href="https://fonts.gstatic.com/s/notosansjp/v28/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.119.woff2" as="font" async crossorigin="anonymous">
-    <link rel="preload" href="https://fonts.gstatic.com/s/robotoslab/v13/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojISmb2Rj.woff2" as="font" async crossorigin="anonymous">
-    <link rel="preload" href="https://fonts.gstatic.com/s/nunitosans/v6/pe0qMImSLYBIv1o4X1M8cce9I9s.woff2" as="font" async crossorigin="anonymous">
-    <link rel="preload" href="https://fonts.gstatic.com/s/notosansjp/v28/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.118.woff2" as="font" async crossorigin="anonymous"> -->
+    <link async rel="preload" as="font"
+        href="https://fonts.gstatic.com/s/nunitosans/v6/pe0qMImSLYBIv1o4X1M8cce9I9s.woff2" crossorigin="anonymous"
+        onload="this.rel='font'">
 
+    <link async rel="preload" as="font"
+        href="https://fonts.gstatic.com/s/notosansjp/v28/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.118.woff2"
+        crossorigin="anonymous" onload="this.rel='font'">
 
+    <link async rel="preload" as="font"
+        href="https://fonts.gstatic.com/s/notosansjp/v28/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.119.woff2"
+        crossorigin="anonymous" onload="this.rel='font'">
+
+    <!-- FONT AWESOME -->
     <link rel="preconnect" href="https://kit.fontawesome.com">
-    <link rel="preload" href="https://kit.fontawesome.com/f5043cec08.js" crossorigin="anonymous" as="script" type="text/javascript" async>
+
+    <link rel="preload" href="https://kit.fontawesome.com/f5043cec08.js" crossorigin="anonymous" as="script"
+        type="text/javascript" async>
     <!-- <link rel="preload" href="https://ka-f.fontawesome.com/releases/v5.15.2/css/free.min.css?token=f5043cec08" as="style" crossorigin="anonymous" type="text/css"> -->
 
+    <link async rel="preload" as="font" href="https://ka-f.fontawesome.com/releases/v5.15.2/webfonts/free-fa-solid-900.woff2" crossorigin="anonymous" onload="this.rel='font'">
 
-    <link rel="preload" href="https://ka-f.fontawesome.com/releases/v5.15.2/webfonts/free-fa-solid-900.woff2" as="font" crossorigin="anonymous" async>
-    <link rel="preload" href="https://ka-f.fontawesome.com/releases/v5.15.2/webfonts/free-fa-brands-400.woff2" as="font" crossorigin="anonymous" async>
-
-
-<!-- PRELOADING IMAGES -->
-<!-- common images -->
-<link rel="preload" href="./imgs/bg/vecto-bg.min.svg" as="image" type="image/svg+xml" async>
+    <link async rel="preload" as="font" href="https://ka-f.fontawesome.com/releases/v5.15.2/webfonts/free-fa-brands-400.woff2" crossorigin="anonymous" onload="this.rel='font'">
 
 
-<!--
+    <!-- PRELOADING IMAGES -->
+    <!-- common images -->
+    <link rel="preload" href="./imgs/bg/vecto-bg.min.svg" as="image" type="image/svg+xml" async>
+
+
+    <!--
     <link rel="preload" href="css/2/estructura2-min.css" as="style">
     <link rel="preload" href="css/2/media2-min.css" as="style"> -->
     <style>
@@ -63,8 +74,9 @@
         <header>
             <h1 id="logo"><a href="./" alt="home">{ac} alexander castelló / </a><span class="tag midcolor">Code &
                     Design & Plus</span></h1>
-            <div id="social"><a href="#" title="Github"><i class=" fab fa-github"></i></a><a href="#" title="Linkedin"><i
-                        class="fab fa-linkedin-in"></i></a><a href="#" title="email"><i class="fas fa-at"></i></a></div>
+            <div id="social"><a href="#" title="Github"><i class=" fab fa-github"></i></a><a href="#"
+                    title="Linkedin"><i class="fab fa-linkedin-in"></i></a><a href="#" title="email"><i
+                        class="fas fa-at"></i></a></div>
         </header>
         <nav>
             <ul>
