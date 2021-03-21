@@ -35,6 +35,8 @@
         href="https://fonts.gstatic.com/s/notosansjp/v28/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.119.woff2"
         crossorigin="anonymous" onload="this.rel='font'">
 
+        <link async rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:400%7CNunito+Sans:400%7COswald:200,400,700%7CRoboto+Slab:400" onload="this.rel='style'">
+
     <!-- FONT AWESOME -->
     <link rel="preconnect" href="https://kit.fontawesome.com">
 
@@ -49,12 +51,14 @@
 
     <!-- PRELOADING IMAGES -->
     <!-- common images -->
-    <link rel="preload" href="./imgs/bg/vecto-bg.min.svg" as="image" type="image/svg+xml" async>
+    <link async rel="preload" as="image" href="./imgs/bg/vecto-bg.min.svg" type="image/svg+xml"  onload="this.rel='image'">
 
 
     <!--
     <link rel="preload" href="css/2/estructura2-min.css" as="style">
     <link rel="preload" href="css/2/media2-min.css" as="style"> -->
+
+
     <style>
         #wrap {
             /* display: none; */
