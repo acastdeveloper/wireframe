@@ -34,9 +34,9 @@
         href="https://fonts.gstatic.com/s/notosansjp/v28/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.119.woff2"
         crossorigin="anonymous" onload="this.rel='font'">
 
-    <link async rel="preload" as="style"
-        href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:400%7CNunito+Sans:400%7COswald:200,400,700%7CRoboto+Slab:400"
-        onload="this.rel='stylesheet'">
+    <!-- <link async rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:400%7CNunito+Sans:400%7COswald:200,400,700%7CRoboto+Slab:400"  onload="this.rel='stylesheet'"> -->
+
+    <link async rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Nunito+Sans&family=Oswald:wght@200;400;700&family=Roboto+Slab&display=swap&subset=latin-ext"  onload="this.rel='stylesheet'">
 
     <!-- FONT AWESOME -->
     <link rel="preconnect" href="https://kit.fontawesome.com">
