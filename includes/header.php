@@ -1,12 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+<?php
 
+if (isset($home)) { $titol="code & design & plus";}
+if (isset($howto)) { $titol="how to";}
+if (isset($resources)) { $titol="resources";}
+if (isset($snippets)) { $titol="snippets";}
+if (isset($aboutme)) { $titol="about me";}
+
+?>
 <head>
+    <title>{ac} alexander castelló / <?php echo($titol); ?></title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="This is just a wireframe">
-    <title>{ac} alexander castelló / code & design & plus</title>
 
 
     <link async rel="stylesheet" as="style" type="text/css" href="./css/2/style2-min.css">
@@ -94,8 +102,7 @@
 <body>
     <div id="wrap">
         <header>
-            <h1 id="logo"><a href="./" alt="home">{ac} alexander castelló / </a><span class="tag midcolor">Code &
-                    Design & Plus</span></h1>
+            <h1 id="logo"><a href="./" alt="home">{ac} alexander castelló$nsp;/</a><span class="tag midcolor"><?php echo($titol); ?></span></h1>
             <div id="social"><a href="#" title="Github"><i class=" fab fa-github"></i></a><a href="#"
                     title="Linkedin"><i class="fab fa-linkedin-in"></i></a><a href="#" title="email"><i
                         class="fas fa-at"></i></a></div>
