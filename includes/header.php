@@ -35,27 +35,59 @@
         href="https://fonts.gstatic.com/s/notosansjp/v28/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.119.woff2"
         crossorigin="anonymous" onload="this.rel='font'">
 
-        <link async rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:400%7CNunito+Sans:400%7COswald:200,400,700%7CRoboto+Slab:400" onload="this.rel='stylesheet'">
+    <link async rel="preload" as="style"
+        href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:400%7CNunito+Sans:400%7COswald:200,400,700%7CRoboto+Slab:400"
+        onload="this.rel='stylesheet'">
 
     <!-- FONT AWESOME -->
     <link rel="preconnect" href="https://kit.fontawesome.com">
 
-    <link async rel="preload" as="script" type="text/javascript" href="https://kit.fontawesome.com/f5043cec08.js" crossorigin="anonymous" onload="this.rel='script'">
+    <link async rel="preload" as="script" type="text/javascript" href="https://kit.fontawesome.com/f5043cec08.js"
+        crossorigin="anonymous" onload="this.rel='script'">
 
-   <link async rel="preload" as="font" href="https://ka-f.fontawesome.com/releases/v5.15.2/webfonts/free-fa-solid-900.woff2" crossorigin="anonymous" onload="this.rel='font'">
+    <link async rel="preload" as="font"
+        href="https://ka-f.fontawesome.com/releases/v5.15.2/webfonts/free-fa-solid-900.woff2" crossorigin="anonymous"
+        onload="this.rel='font'">
 
-    <link async rel="preload" as="font" href="https://ka-f.fontawesome.com/releases/v5.15.2/webfonts/free-fa-brands-400.woff2" crossorigin="anonymous" onload="this.rel='font'">
+    <link async rel="preload" as="font"
+        href="https://ka-f.fontawesome.com/releases/v5.15.2/webfonts/free-fa-brands-400.woff2" crossorigin="anonymous"
+        onload="this.rel='font'">
 
-     <link async rel="preload" as="style" type="text/css" href="https://ka-f.fontawesome.com/releases/v5.15.2/css/free.min.css?token=f5043cec08" crossorigin="anonymous" onload="this.rel='stylesheet';">
+    <link async rel="preload" as="style" type="text/css"
+        href="https://ka-f.fontawesome.com/releases/v5.15.2/css/free.min.css?token=f5043cec08" crossorigin="anonymous"
+        onload="this.rel='stylesheet';">
 
-     <link async rel="preload" as="style" type="text/css" href="https://ka-f.fontawesome.com/releases/v5.15.2/css/free-v4-shims.min.css?token=f5043cec08" crossorigin="anonymous" onload="this.rel='stylesheet';">
+    <link async rel="preload" as="style" type="text/css"
+        href="https://ka-f.fontawesome.com/releases/v5.15.2/css/free-v4-shims.min.css?token=f5043cec08"
+        crossorigin="anonymous" onload="this.rel='stylesheet';">
 
-     <link async rel="preload" as="style" type="text/css" href="https://ka-f.fontawesome.com/releases/v5.15.2/css/free-v4-font-face.min.css?token=f5043cec08" crossorigin="anonymous" onload="this.rel='stylesheet';">
+    <link async rel="preload" as="style" type="text/css"
+        href="https://ka-f.fontawesome.com/releases/v5.15.2/css/free-v4-font-face.min.css?token=f5043cec08"
+        crossorigin="anonymous" onload="this.rel='stylesheet';">
+
+
+    <!-- PRELOADING SCRIPTS -->
+    <script type="text/javascript">
+        function downloadJSAtOnload() {
+            var element = document.createElement("script");
+            element.src = "https://kit.fontawesome.com/f5043cec08.js";
+            document.body.appendChild(element);
+            var element = document.createElement("script");
+        }
+        if (window.addEventListener)
+            window.addEventListener("load", downloadJSAtOnload, false);
+        else if (window.attachEvent)
+            window.attachEvent("onload", downloadJSAtOnload);
+        else window.onload = downloadJSAtOnload;
+    </script>
+
+
 
 
     <!-- PRELOADING IMAGES -->
     <!-- common images -->
-    <link async rel="preload" as="image" href="./imgs/bg/vecto-bg.min.svg" type="image/svg+xml"  onload="this.rel='image'">
+    <link async rel="preload" as="image" href="./imgs/bg/vecto-bg.min.svg" type="image/svg+xml"
+        onload="this.rel='image'">
 
 
     <!--
