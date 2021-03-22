@@ -17,7 +17,7 @@ if (isset($aboutme)) { $titol="about me";}
     <meta name="description" content="This is just a wireframe">
 
 
-    <link async rel="stylesheet" as="style" type="text/css" href="./css/2/style2-min.css">
+    <link rel="stylesheet" as="style" type="text/css" href="./css/2/style2-min.css">
 
     <link async rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" >
 
