@@ -24,21 +24,21 @@ if (isset($aboutme)) { $titol="about me";}
     <!-- GOOGLE FONTS -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
 
-    <link async rel="preload" as="font" href="https://fonts.gstatic.com/s/oswald/v36/TK3iWkUHHAIjg752GT8G.woff2" crossorigin="anonymous" onload="this.rel='font'">
+    <link async rel="preload" as="font" type="font/woff2" href="https://fonts.gstatic.com/s/oswald/v36/TK3iWkUHHAIjg752GT8G.woff2" crossorigin="anonymous" onload="this.rel='font'">
 
-    <link async rel="preload" as="font"
+    <link async rel="preload" as="font" type="font/woff2"
         href="https://fonts.gstatic.com/s/robotoslab/v13/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojISmb2Rj.woff2"
         crossorigin="anonymous" onload="this.rel='font'">
 
-    <link async rel="preload" as="font"
+    <link async rel="preload" as="font" type="font/woff2"
         href="https://fonts.gstatic.com/s/nunitosans/v6/pe0qMImSLYBIv1o4X1M8cce9I9s.woff2" crossorigin="anonymous"
         onload="this.rel='font'">
 
-    <link async rel="preload" as="font"
+    <link async rel="preload" as="font" type="font/woff2"
         href="https://fonts.gstatic.com/s/notosansjp/v28/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.118.woff2"
         crossorigin="anonymous" onload="this.rel='font'">
 
-    <link async rel="preload" as="font"
+    <link async rel="preload" as="font" type="font/woff2"
         href="https://fonts.gstatic.com/s/notosansjp/v28/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.119.woff2"
         crossorigin="anonymous" onload="this.rel='font'">
 
@@ -51,11 +51,11 @@ if (isset($aboutme)) { $titol="about me";}
 
     <!-- <link async rel="preload" as="script" type="text/javascript" href="https://kit.fontawesome.com/f5043cec08.js" crossorigin="anonymous"> -->
 
-    <link async rel="preload" as="font"
+    <link async rel="preload" as="font" type="font/woff2"
         href="https://ka-f.fontawesome.com/releases/v5.15.2/webfonts/free-fa-solid-900.woff2" crossorigin="anonymous"
         onload="this.rel='font'">
 
-    <link async rel="preload" as="font"
+    <link async rel="preload" as="font" type="font/woff2"
         href="https://ka-f.fontawesome.com/releases/v5.15.2/webfonts/free-fa-brands-400.woff2" crossorigin="anonymous"
         onload="this.rel='font'">
 
