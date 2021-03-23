@@ -1,21 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php
-
 if (isset($home)) { $titol="code & design & plus";}
 if (isset($howto)) { $titol="how to";}
 if (isset($resources)) { $titol="resources";}
 if (isset($snippets)) { $titol="snippets";}
 if (isset($aboutme)) { $titol="about me";}
-
 ?>
+
 <head>
     <title>{ac} alexander castelló / <?php echo($titol); ?></title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="This is just a wireframe">
-
 
     <link rel="stylesheet" as="style" type="text/css" href="./css/2/style2-min.css">
 
@@ -42,20 +40,11 @@ if (isset($aboutme)) { $titol="about me";}
         href="https://fonts.gstatic.com/s/notosansjp/v28/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.119.woff2"
         crossorigin="anonymous" onload="this.rel='font'">
 
-    <!-- <link async rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:400%7CNunito+Sans:400%7COswald:200,400,700%7CRoboto+Slab:400"  onload="this.rel='stylesheet'"> -->
-
-    <!-- <link async rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Nunito+Sans&family=Oswald:wght@200;400;700&family=Roboto+Slab&display=swap&subset=latin-ext"  onload="this.rel='stylesheet'"> -->
-
     <link async rel="preload" as="style" href="css/google-fonts-min.css"  onload="this.rel='stylesheet'">
-
-
-
 
 
     <!-- FONT AWESOME -->
     <link rel="preconnect" href="https://kit.fontawesome.com">
-
-    <!-- <link async rel="preload" as="script" type="text/javascript" href="https://kit.fontawesome.com/f5043cec08.js" crossorigin="anonymous"> -->
 
     <link async rel="preload" as="font" type="font/woff2"
         href="https://ka-f.fontawesome.com/releases/v5.15.2/webfonts/free-fa-solid-900.woff2" crossorigin="anonymous"
@@ -84,12 +73,6 @@ if (isset($aboutme)) { $titol="about me";}
     <!-- common images -->
     <link async rel="preload" as="image" href="./imgs/bg/vecto-bg.min.svg" type="image/svg+xml"
         onload="this.rel='image'">
-
-
-    <!--
-    <link rel="preload" href="css/2/estructura2-min.css" as="style">
-    <link rel="preload" href="css/2/media2-min.css" as="style"> -->
-
 
     <style>
         #wrap {
@@ -122,7 +105,6 @@ if (isset($aboutme)) { $titol="about me";}
                         role="button">Resources</a></li>
                 <li><a href="snippets.php" class="<?php echo(isset($snippets)?'selected':'') ?>"
                         role="button">Snippets</a></li>
-                <li><a href="about-me.php" class="<?php echo(isset($aboutme)?'selected':'') ?>" role="button">About
-                        me</a></li>
+                <li><a href="about-me.php" class="<?php echo(isset($aboutme)?'selected':'') ?>" role="button">About me</a></li>
             </ul>
         </nav>
